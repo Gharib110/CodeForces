@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Alireza\CodeForces\TheatreSquare\build\CMakeFiles\1e9486a6b960305b8fdd029369166fd6\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BD6E2869-852D-33E5-B27A-390DB159576A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

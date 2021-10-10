@@ -1,0 +1,4 @@
+D:/Alireza/CodeForces/TheatreSquare/build/CMakeFiles/theatresquare.dir
+D:/Alireza/CodeForces/TheatreSquare/build/CMakeFiles/INSTALL.dir
+D:/Alireza/CodeForces/TheatreSquare/build/CMakeFiles/ALL_BUILD.dir
+D:/Alireza/CodeForces/TheatreSquare/build/CMakeFiles/ZERO_CHECK.dir
