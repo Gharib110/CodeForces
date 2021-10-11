@@ -1,0 +1,3 @@
+D:/Alireza/CodeForces/ReverseInteger/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Alireza/CodeForces/ReverseInteger/cmake-build-debug/CMakeFiles/ReverseInteger.dir
+D:/Alireza/CodeForces/ReverseInteger/cmake-build-debug/CMakeFiles/edit_cache.dir

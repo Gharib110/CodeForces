@@ -1,0 +1,3 @@
+D:/Alireza/CodeForces/AncientErlandCircus/cmake-build-debug/CMakeFiles/AncientErlandCircus.dir
+D:/Alireza/CodeForces/AncientErlandCircus/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Alireza/CodeForces/AncientErlandCircus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

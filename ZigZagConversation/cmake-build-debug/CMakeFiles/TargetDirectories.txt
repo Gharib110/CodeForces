@@ -1,0 +1,3 @@
+D:/Alireza/CodeForces/ZigZagConversation/cmake-build-debug/CMakeFiles/ZigZagConversation.dir
+D:/Alireza/CodeForces/ZigZagConversation/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Alireza/CodeForces/ZigZagConversation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
