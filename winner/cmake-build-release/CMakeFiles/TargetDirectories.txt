@@ -1,0 +1,3 @@
+D:/Alireza/CodeForces/winner/cmake-build-release/CMakeFiles/winner.dir
+D:/Alireza/CodeForces/winner/cmake-build-release/CMakeFiles/edit_cache.dir
+D:/Alireza/CodeForces/winner/cmake-build-release/CMakeFiles/rebuild_cache.dir
