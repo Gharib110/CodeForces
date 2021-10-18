@@ -3,25 +3,39 @@
 
 #include <iostream>
 #include <unordered_map>
+#include <string>
 
 using namespace std;
+
+string IntegerToRoman(int num) {
+    // storing roman values of digits from 0-9
+    // when placed at different places
+    string m[] = { "", "M", "MM", "MMM" };
+    string c[] = { "",  "C",  "CC",  "CCC",  "CD",
+                   "D", "DC", "DCC", "DCCC", "CM" };
+    string x[] = { "",  "X",  "XX",  "XXX",  "XL",
+                   "L", "LX", "LXX", "LXXX", "XC" };
+    string i[] = { "",  "I",  "II",  "III",  "IV",
+                   "V", "VI", "VII", "VIII", "IX" };
+
+    // Converting to roman
+    string thousands = m[num / 1000];
+    string hundereds = c[(num % 1000) / 100];
+    string tens = x[(num % 100) / 10];
+    string ones = i[num % 10];
+
+    string ans = thousands + hundereds + tens + ones;
+
+    return ans;
+}
 
 int main()
 {
     std::cout << "Hello World!\n";
-    unordered_map<int, string> cons;
-    cons[1] = "I";
-    cons[5] = "V";
-    cons[10] = "X";
-    cons[50] = "L";
-    cons[100] = "C";
-    cons[500] = "D";
-    cons[1000] = "M";
-
-    for (unordered_map<int, string>::iterator iterator = cons.begin() ; iterator != cons.end(); iterator++)
-    {
-        
-    }
+    
+    string input = "987";
+    cout << input[1] - '0' << std::endl;
+    
 
     return 0;
 }
