@@ -4,28 +4,23 @@
 
 using namespace std;
 
-int letterCombinations(string digits) {
-    auto* data = new unordered_map<char, string>{};
-    data->insert(make_pair('2', "abc")); // This is so important to remember
-    data->insert(make_pair('3', "def"));
-    data->insert(make_pair('4', "ghi"));
-    data->insert(make_pair('5', "jkl"));
-    data->insert(make_pair('6', "mno"));
-    data->insert(make_pair('7', "pqrs"));
-    data->insert(make_pair('8', "tuv"));
-    data->insert(make_pair('9', "wxyz"));
+vector<string> letterCombinations(string D) {
+    unordered_map<char, string> L({{'2',"abc"},{'3',"def"},{'4',"ghi"},
+                                   {'5',"jkl"},{'6',"mno"},{'7',"pqrs"},{'8',"tuv"},{'9',"wxyz"}});
+    int len = D.size();
+    vector<string> ans;
+    if (!len) return ans;
+    bfs(0, len, "", ans, D, L);
+    return ans;
+}
 
-    vector<string> output;
-
-    string digOne = data->at(digits[0]);
-
-    for (int i = 0; i < digOne.length(); ++i) {
-
+void bfs(int pos, int &len, string str, vector<string> &ans, string &D, unordered_map<char, string> L) {
+    if (pos == len) ans.push_back(str);
+    else {
+        string letters = L[D[pos]];
+        for (int i = 0; i < letters.size(); i++)
+            bfs(pos+1, len, str+letters[i], ans, D, L);
     }
-
-    delete data;
-
-    return NULL;
 }
 
 int main() {
